@@ -1,6 +1,10 @@
 package saka1029;
-import java.util.regex.*;
-import java.lang.StringBuffer;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
+/**
+@auhtor "https://qiita.com/shiracamus";
+*/
 public class Yeah {
     static final Pattern PAT = Pattern.compile("[いイ]+");
     public static String convert(String s) {

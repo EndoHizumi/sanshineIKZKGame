@@ -1,4 +1,9 @@
 package shiracamus;
+/**
+ *
+ * @author https://qiita.com/saka1029
+ *
+ */
 public class Yeah {
 
     /**

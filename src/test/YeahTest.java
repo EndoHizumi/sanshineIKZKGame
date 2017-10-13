@@ -21,6 +21,7 @@ public class YeahTest {
 
 
 	@Test
+	// author:https://qiita.com/saka1029
 	public void testConvert3() {
 		assertEquals("イェーーーーーーええええイェーーーーーー", saka1029.Yeah.convert("イイイイイイええええいいいいいい"));
 		assertEquals("イェーえイェーーえええええイェーえイェーえイェーー",saka1029.Yeah.convert("イえイイえええええいえいえいい"));

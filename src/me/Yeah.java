@@ -1,6 +1,8 @@
 package me;
 import java.util.Arrays;
-
+/**
+@auhtor "https://qiita.com/winvis";
+*/
 public class Yeah {
     /**
      * 入力された文字列に「い」または「イ」が合ったら、「イェー」に置き換えてください。
