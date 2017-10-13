@@ -6,7 +6,7 @@ public class Yeah {
      * 入力された文字列に「い」または「イ」が合ったら、「イェー」に置き換えてください。
      * ただし、連続する場合は2回目以降は「ー」に置き換えてください。
      */
-    public static String Converter(String text) {
+    public static String convert(String text) {
         boolean alwaysHit = false;
         String[] hit = {"い", "イ"};
         String[] strArray = toArray(text);
@@ -25,7 +25,7 @@ public class Yeah {
         return Arrays.toString(strArray).replace(" ", "").replace(",", "").replace("[", "").replace("]", "");
     }
 
-    private statictring[] toArray(String str) {
+    private static String[] toArray(String str) {
         String[] returnStr = new String[str.length()];
         // 変数strの長さ分回す
         for (int i = 0; i <= str.length() - 1 ; i++) {
